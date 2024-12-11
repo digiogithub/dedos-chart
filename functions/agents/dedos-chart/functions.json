@@ -1,0 +1,19 @@
+[
+  {
+    "name": "generate_chart",
+    "description": "Generate chart",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "d2code": {
+          "type": "string",
+          "description": "D2lang code to generate chart"
+        }
+      },
+      "required": [
+        "d2code"
+      ]
+    },
+    "agent": true
+  }
+]
